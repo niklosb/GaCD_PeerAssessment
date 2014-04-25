@@ -1,16 +1,3 @@
-#RunAnalysis Code Book
-
-##Variables
-
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-The set of variables that were estimated from these signals are: 
-
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-
 * Subject
 * Activity
 * tBodyAcc-mean()-X
@@ -92,9 +79,3 @@ meanFreq(): Weighted average of the frequency components to obtain a mean freque
 * fBodyBodyAccJerkMag-std()
 * fBodyBodyGyroMag-std()
 * fBodyBodyGyroJerkMag-std()
-
-##Data
-The data was derived from accelerometer and gyroscopic signals. The features above were estimated from these signals.
-
-##Transformations
-The data is the average value of several original replications grouped by the subject and activity.
